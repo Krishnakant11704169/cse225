@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/stayhome"
+        android:icon="@drawable/home"
+        android:title="Stay Home"/>
+    <item
+        android:id="@+id/mask"
+        android:icon="@drawable/medicalmask"
+        android:title="Mask"/>
+    <item
+        android:id="@+id/washhands"
+        android:icon="@drawable/handwashing"
+        android:title="Wash Hands"/>
+</menu>

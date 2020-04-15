@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <ImageView
+        android:layout_width="112dp"
+        android:layout_height="112dp"
+        android:src="@drawable/sorethroat" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="According to the WHO, the most common symptoms of Covid-19 is a dry cough. Some patients may also have a runny nose, sore throat, nasal congestion and aches and pains or diarrhoea."
+        android:textColor="#000000"
+        android:textSize="12sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="About 80% of people who get Covid-19 experience a mild case – about as serious as a regular cold – and recover without needing any special treatment."
+        android:textColor="#000000"
+        android:textSize="12sp" />
+</LinearLayout>

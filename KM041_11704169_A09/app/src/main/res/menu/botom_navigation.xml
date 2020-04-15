@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/home"
+    android:icon="@drawable/cough"
+    android:title="Cough"/>
+    <item
+        android:id="@+id/favorite"
+        android:icon="@drawable/fever"
+        android:title="Fever"/>
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/breathing"
+        android:title="Breathing"/>
+</menu>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Coronavirus (COVID-19)"
+        android:textColor="#000000"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/covid" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Coronavirus disease (COVID-19) is an infectious disease caused by a newly discovered coronavirus."
+        android:textColor="#000000"
+        android:textSize="12sp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/virus" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="The COVID-19 virus spreads primarily through droplets of saliva or discharge from the nose when an infected person coughs or sneezes."
+        android:textColor="#000000"
+        android:textSize="12sp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/virrrus" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="At this time, there are no specific vaccines or treatments for COVID-19. However, there are many ongoing clinical trials evaluating potential treatments. Click below to know more."
+        android:textColor="#000000"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/symptoms"
+        android:layout_width="230dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="20dp"
+        android:background="#ffffff"
+        android:drawableLeft="@drawable/symptoms"
+        android:padding="10dp"
+        android:text="Virus Symptoms" />
+
+    <Button
+        android:id="@+id/precautions"
+        android:layout_width="230dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="13dp"
+        android:background="#ffffff"
+        android:drawableLeft="@drawable/precaution"
+        android:padding="10dp"
+        android:text="Virus Precautions" />
+
+</LinearLayout>
